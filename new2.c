@@ -5,7 +5,8 @@ int main() {
     y;int
     temp;
     printf("Enter value of x: ");
-    
-    printf("Hello, World!\n");
+    scanf("%d", &x);
+
+    printf("\nEnter value of y");
     return 0;
 }
