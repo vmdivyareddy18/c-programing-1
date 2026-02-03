@@ -9,7 +9,7 @@ int main() {
 
     printf("\nEnter value of y");
     scanf("%d", &y);
-    
+    printf("\nBefore swapping: x = %d, y = %d", x, y);
     temp = x;
     x = y;
     y = temp;
